@@ -1,0 +1,17 @@
+#playground {
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    grid-gap: 10px;
+    margin: 5px;
+    margin-top: 30px;
+}
+button img {
+    opacity: 0;
+}
+.active img{
+    opacity: 1;
+}
+.matched img{
+    opacity: 1;
+}
+
